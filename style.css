@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(172, 172, 172);
+    position: relative;
+}
+
+#nav {
+    height: 90px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav img {
+    height: 30px;
+    margin-right: 130px;
+
+
+}
+
+#nav-prt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-prt1 h4 {
+    margin: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#nav-prt2 i {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#content {
+    width: 100%;
+    height: calc(100% - 90px);
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+#right {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(172, 172, 172);
+    position: relative;
+    padding: 150px 100px;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+/* #right::-webkit-scrollbar{
+    display:none;
+} */
+.elem {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px black;
+    display: inline-block;
+    margin-right: 10px;
+
+
+}
+
+.elem img {
+    position: absolute;
+    object-fit: contain;
+    height: 100%;
+
+    width: 100%;
+}
+
+.elem h4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: grey;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.elem h5 {
+    position: absolute;
+    bottom: 9.5%;
+    right: 0;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+#left {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(172, 172, 172);
+    padding: 100px 80px;
+}
+
+#left h5 {
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+    font-weight: 500;
+
+}
+
+#left p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+#left h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+#left button {
+    background-color: black;
+    color: white;
+    padding: 13px 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+}
